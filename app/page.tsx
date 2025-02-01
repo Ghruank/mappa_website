@@ -67,9 +67,9 @@ export default function Home() {
   }, []);
 
   const commands = [
-    { cmd: "pip install mappa", label: "Using pip" },
-    { cmd: "scoop install mappa", label: "Using Scoop" },
-    { cmd: "choco install mappa", label: "Using Chocolatey" },
+    { cmd: "pip install mappaforterminal", label: "Using pip" },
+    { cmd: "scoop install mappaforterminal", label: "Using Scoop" },
+    { cmd: "choco install mappaforterminal", label: "Using Chocolatey" },
   ];
 
   return (
