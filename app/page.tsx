@@ -85,7 +85,7 @@ export default function Home() {
             <div className="flex gap-8 items-center">
               <a href="#features" className="text-white/70 hover:text-white transition">Features</a>
               <a href="#cli" className="text-white/70 hover:text-white transition">CLI</a>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white" onClick={() => window.location.href = '/Mappa_Installer.exe'}>
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white" onClick={() => window.location.href = '/Mappa_Installer_v3.exe'}>
                 Download Now
               </Button>
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
             <Button
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white"
-              onClick={() => window.location.href = '/public/Mappa_Installer.exe'}
+              onClick={() => window.location.href = '/public/Mappa_Installer_v3.exe'}
             >
               <Download className="mr-2 h-5 w-5" />
               Download for Windows
@@ -210,7 +210,7 @@ export default function Home() {
             <h3 className="text-xl font-semibold mb-4 text-white">Otherwise, download for Windows</h3>
             <div className="flex justify-center">
               <button className="bg-blue-600 hover:bg-blue-700 text-white flex items-center px-4 py-2 rounded-lg transition"
-                onClick={() => window.location.href = '/Mappa_Installer.exe'}>
+                onClick={() => window.location.href = '/Mappa_Installer_v3.exe'}>
                 <Download className="mr-2 h-5 w-5" />
                 Download for Windows
               </button>
